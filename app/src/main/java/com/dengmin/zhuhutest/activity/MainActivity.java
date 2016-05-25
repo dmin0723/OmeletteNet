@@ -32,6 +32,7 @@ public class MainActivity extends Activity implements
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        //换成
         //判断网络连接
         isConnected = NetworkUtils.checkNetworkConnection(this);
 
